@@ -1,4 +1,3 @@
-#in ra kim tự tháp.
 i=1
 while i<=9:
     j=1

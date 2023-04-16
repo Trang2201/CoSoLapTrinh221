@@ -2,7 +2,7 @@
 i=9
 while i>=1:
     print('$'*i)
-    i=i-1
+    i=i-1 #i-=1
 #cách 2: 
 i=1
 while i<=9:
@@ -11,5 +11,5 @@ while i<=9:
         print('$',end="")
         j=j+1
     print()
-    i=i+1
+    i=i+1 #i+=1
         
