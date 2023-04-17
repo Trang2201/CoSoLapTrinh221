@@ -1,4 +1,4 @@
-n=int(input("Nhap n (0<=n<=9999): "))
+n=int(input("n="))
 m=n
 s=0
 if n==0: s=1
