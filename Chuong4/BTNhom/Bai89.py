@@ -9,7 +9,7 @@ def Inhoa(s):
             while j < len(s) and s[j].isspace():
                 j=j+1
             if j < len(s):
-                s = s[:j] + s[j:].capitalize()
+                s = s[:j] + s[j:].capitalize()          #xuất tập con bằng cú pháp kiểu list
     s=s.replace(' i ',' I ')
     return s
 def Inkq(kq):
