@@ -1,10 +1,11 @@
 n=int(input())
 s=""
-if n==0: s='A'
+if n==0: s=s+'A'
 while n>0:
     mod=n%10
     n=n//10
-    if mod==1: s='B'+s
+    if mod==0: s='A'+s
+    elif mod==1: s='B'+s
     elif mod==2: s='C'+s
     elif mod==3: s='D'+s
     elif mod==4: s='E'+s
