@@ -1,14 +1,14 @@
-x=int(input())
-n=int(input())
+x=int(input("x="))
+n=int(input("n="))
 L=[]
 for i in range(1,n+1):
     a=int(input())
     L.append(a)
 def delete(L,x):
-    while x in L:
-        L.remove(x)
-    return L
-def Inkq(L):
-    print(L)
+    i=0
+    while i<len(L):
+        if L[i]==x: del(L[i])
+        else: i=i+1
+    return L                                                 
 L=delete(L,x)
-Inkq(L)
+print(L)
