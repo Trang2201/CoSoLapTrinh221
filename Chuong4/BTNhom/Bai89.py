@@ -6,7 +6,7 @@ def Inhoa(s):
     for i in range(len(s)):
         if s[i] in ('.', '!', '?'):
             j=i+1
-            while j < len(s) and s[j].isspace():
+            while j < len(s) and s[j]==" ":
                 j=j+1
             if j < len(s):
                 s = s[:j] + s[j:].capitalize()          #xuất tập con bằng cú pháp kiểu list
