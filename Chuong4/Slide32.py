@@ -1,14 +1,10 @@
 def Ketqua(n,r):
-    if n==r: return 'Draw!'
-    elif n==1:
-        if r==2: return 'Human Win!'
-        if r==3: return 'Computer Win!'                          
-    elif n==2: 
-        if r==1: return 'Computer Win!'
-        if r==3: return 'Human Win!'
-    else:
-        if r==1: return 'Human Win!'
-        if r==2: return 'Computer Win!'
+    if n==r: 
+        return 'Draw!'
+    elif (n==1 and r==2) or (n==2 and r==3) or (n==3 and r==1):           
+        return 'Human Win!'
+    else: 
+        return 'Computer Win!'
 
 def Inkq(kq):
     print("Result:",kq)
@@ -22,9 +18,3 @@ while True:
         print("Computer:",r)
     kq=Ketqua(n,r)
     Inkq(kq)
-
-
-
-        
-    
-    
